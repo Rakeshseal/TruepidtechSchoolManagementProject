@@ -1,0 +1,767 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #2C3D4D;
+}
+.mani-cont{
+    height: 100vh;
+    background-color: #2C3D4D;
+  /*********Left Section********/
+    .left_sec{
+        position: fixed;
+        height: 100%;
+        width: 20%;
+        color: #fff;
+        background-color: #263442;
+        .left-nav{
+            background-color: #121c257e;
+            height: 80px;
+            .logo{
+                color: #fff;
+            }
+        }
+        .item_gap{
+            width: 70%;
+        }
+        .item{
+            font-size: 19px;
+        }
+        .item img{
+            width: 14px;
+            height: 14px;
+            margin-top: -10px;
+            cursor: pointer;
+        }
+
+        //Teacher items
+        .item_li{
+            font-size: 14px;
+            display: none;
+        }
+        .arrow-up1{
+            display: none;
+        }
+
+        //Form items
+        .item_li2{
+            font-size: 14px;
+            display: none;
+        }
+        .arrow-up2{
+            display: none;
+        }
+
+        //Notifications items
+        .item_li3{
+            font-size: 14px;
+            display: none;
+        }
+        .arrow-up3{
+            display: none;
+        }
+
+        //Events items
+        .item_li4{
+            font-size: 14px;
+            display: none;
+        }
+        .arrow-up4{
+            display: none;
+        }
+
+        //Student Management items
+        .item_li5{
+            font-size: 14px;
+            display: none;
+        }
+        .item_gap_student{
+            width: 22%;
+        }
+        .arrow-up5{
+            display: none;
+        }
+
+        //Charts items
+        .item_li6{
+            font-size: 14px;
+            display: none;
+        }
+        .arrow-up6{
+            display: none;
+        }
+        .sign_rt{
+           display: none;
+        }
+        .menu_ico{
+            width: 50px;
+            display: none;
+        }
+        .x_ico{
+            width: 25px;
+            display: none;
+        }
+
+        //Dash Menu
+        .dash_cont{
+            background-color: #263442;
+            height:100% ;
+        }
+    }
+
+   /******Right Section**********/
+
+    .right_sec{
+        
+        right: 0;
+        height: auto;
+        width: 80%;
+        background-color: #2C3D4D;
+        .right-nav{
+            position: fixed;
+            z-index: 1;
+            height: 80px;
+            background-color: #21303f;
+            .nav-cont{
+                gap: 40%;
+            }
+            .logo{
+                color: #fff;
+            }
+            .user_img{
+                width: 45px;
+                height: 45px;
+                margin-top: -20px;
+                border: 3px solid rgb(219, 219, 219);
+            } //user Image
+
+            #user-input{
+                display: none;
+            }
+            .admin_subject{
+               color: #fff;
+               padding-left: 20px;
+               cursor: pointer;
+            }
+        }
+        .right_op{
+            right: 2%;
+            gap: 30px;
+        }
+        .alert_icon{
+            width: 30px;
+            height: 30px;
+        }
+        .signin{
+            text-decoration: none;
+            font-size: 21px;
+            color: #fff;
+            font-weight: 500;
+        }
+        .signup{
+            width: 100px;
+            height: 40px;
+            text-align: center;
+            border: 2px solid #fff;
+            outline: none;
+            background-color: transparent;
+            border-radius: 7px;
+            text-decoration: none;
+            font-size: 21px;
+            color: #fff;
+            font-weight: 500;
+        }
+        .inner_sec{
+            position: absolute;
+            top: 80px;
+           section{
+            gap: 30px;
+           }
+            color: #92979b79;
+            p{
+                color: #fff;
+            }
+            
+            .card{
+                cursor: pointer;
+                width: 20%;
+                height: 40vh;
+                background-color: rgba(255, 255, 255, 0.274);
+                transition: transform 0.1s;
+            }
+            .card:hover{
+                transform: scale(1.06);
+            }
+        }
+
+    }
+
+
+    /*Add_student Section css Style Start*/
+
+    .Add_student_form{
+        color: #fff;
+        width: 100%;
+        height: auto;
+        select{
+            border-radius: 0;
+            margin-top: 2px;
+            height: 40px;
+            color: #fff;
+            outline: none;
+            border-bottom: 1px solid rgb(170, 170, 170);
+            border-top: 0;
+            border-left: 0;
+            border-right: 0;
+            background-color: transparent;
+            option{
+                color: #0e0e0e;
+            }
+            
+        }
+        .StudentClass{
+            width: 20%;
+        }
+        .add_submit_btn{
+            width: 100px;
+        }
+        .image_upload{
+            width: 120px;
+            height: 30px;
+            border-radius: 5px;
+            border: none;
+            outline: none;
+            background-color: rgb(126, 126, 126);
+            cursor: pointer;
+        }
+        .add_submit_btn{
+            border: none;
+            background-color: #fff;
+            border-radius: 5px;
+            font-weight: 600;
+        }
+        #input-file{
+            border: none;
+            outline: none;
+        }
+        input{
+            margin-top: 2px;
+            width: 50%;
+            height: 40px;
+            color: #fff;
+            outline: none;
+            border-bottom: 1px solid rgb(170, 170, 170);
+            border-top: 0;
+            border-left: 0;
+            border-right: 0;
+            background-color: transparent;
+            // border-radius: 5px;
+        }
+        img{
+            width: 120px;
+            height: 120px;
+            border: 4px solid #fff;
+            outline: none;
+        }
+    }
+
+     /*Add_student Section css Style End*/  
+
+  
+    /*********NOTIFICATION SECTION START********/
+
+    /******Notice Add Section Style Satrt*******/
+.notice_upForm{
+    width: 100%;
+    height: auto;
+    select{
+        height: 40px;
+        border: none;
+        outline: none;
+        
+        cursor: pointer;
+    }
+    .file_upload_sec{
+        width: 150px;
+        cursor: pointer;
+        align-items: baseline;
+        button{
+            width: 100px;
+            height: 40px;
+            border-radius: 5px;
+            border: none;
+            outline: none;
+            background-color: rgb(95, 95, 95);
+            color: #fff;
+            font-weight: 600;
+        }
+    }
+}
+    /*****Notice Add Section End******/
+   .notice_table{
+    border: none;
+    outline: none;
+    color: #fff;
+      width: 100%;
+      height: auto;
+      tr, td, th{
+        border: 1px solid #fff;
+      }
+      .not_upload{
+        section{
+            padding: 2px;
+            gap: 9px;
+            img{
+                width: 20px;
+            }
+        }
+        width: 200px;
+        background-color: rgb(0, 146, 0);
+        font-weight: 700;
+        cursor: pointer;
+        border-radius: 6px;
+      }
+      .not_view{
+        width: 200px;
+        background-color: rgb(58, 58, 58);
+        
+        cursor: pointer;
+        border-radius: 6px;
+        img{
+            width: 20px;
+        }
+      }
+      .not_cancel{
+        width: 200px;
+        font-weight: 700;
+        .delet_btn{
+            cursor: pointer;
+            width: 100px;
+            height: 30px;
+            border: none;
+            outline: none;
+            background-color: rgb(253, 69, 69);
+            color: #fff;
+            border-radius: 6px;
+        }
+      }
+      td{
+        background-color: #1a242e;
+        height: 40px;
+      }
+   }
+    
+   /********NOTIFICATION SECTION END**********/
+}
+
+/******Student View Section style Start********/
+.student_table{
+    color: #fff;
+    width: 100%;
+    height: auto;
+    .class_ul{
+        display: none;
+        padding: 0;
+        width: 16%;
+        height: auto;
+        border: none;
+        outline: none;
+        background-color: rgba(129, 129, 129, 0.541);
+        .class_li{
+            height: 0px;
+            border: 1px solid #fff;
+            list-style: none;
+            cursor: pointer;
+            background-color: #151d24;
+            p{
+                text-align: center;
+                color: #fff;
+            }
+        }
+        .class_li:hover{
+            background-color: #fff;
+            p{
+                color: #263442;
+            }
+        }
+    }
+    .Sec_ul{
+        margin-top: 11px;
+        display: none;
+        padding: 0;
+        width: 28%;
+        height: auto;
+        border: none;
+        outline: none;
+        background-color: rgba(129, 129, 129, 0.541);
+        .Sec_li{
+            height: 0px;
+            border: 1px solid #fff;
+            list-style: none;
+            background-color: #151d24;
+            
+            cursor: pointer;
+            p{
+                text-align: center;
+                color: #fff;
+            }
+        }
+        .Sec_li:hover{
+            background-color: #fff;
+            p{
+                color: #263442;
+            }
+        }
+    }
+    .table_ex{
+        border: none;
+        outline: none;
+    }
+    th{
+        border: 1px solid #fff;
+        color: #fff;
+    }
+    td{
+        border: 1px solid #fff;
+        color: #fff;
+    }
+    .infoClassArrowDwn, .infoSecArrowDwn{
+        display: none;
+    }
+    .LnA{
+        display: none;
+    }
+    img{
+        cursor: pointer;
+        width: 20px;
+        height: 20px;
+        border-radius: 3px;
+        border: none;
+        outline: none;
+        background-color: rgb(104, 104, 104);
+        
+    }
+    
+    .sub_tr_3{
+        display: none;
+    }
+    .sub_tr_1, .sub_tr_2, .sub_tr_1_1, .sub_tr_1_2, .sub_tr_2_1, .sub_tr_3_1{
+        display: none;
+        
+    }
+    .sub_tr_1, .sub_tr_2, .sub_tr_3, .sub_tr_1_1, .sub_tr_1_2, .sub_tr_2_1, .sub_tr_3_1{
+        text-align: center;
+        img{
+            width: 67px;
+            height: 67px;
+            
+        }
+    }
+}
+
+
+/******Student View Section style End*********/
+
+
+
+
+/******* Sign Button Page css start*******/
+
+.signin_cont{
+    height: 100vh;
+    .button_section{
+        width: 60%;
+        gap: 20px;
+        
+    }
+    .signin{
+            background-color: #0e0e0e;
+            color: #fff;
+            transition: transform 0.1s;
+        }
+        .signin:hover{
+            transform: scale(1.06);
+        }
+        .signup{
+            
+            transition: transform 0.1s;
+        }
+        .signup:hover{
+            transform: scale(1.06);
+        }
+        button{
+            width: 120px;
+            height: 45px;
+            border: none;
+            outline: none;
+            border-radius: 7px;
+            text-align: center;
+        }
+    
+    }
+    
+
+/******* Sign button page css End *******/
+
+       /********* Sign in / sign up css section Start**********/
+
+       .signin_cont{
+        height: 100vh;   
+    }
+    .signin_cont form{
+            width: 50%;
+            height: auto;
+            border-radius: 7px;
+            gap: 20px;
+            border: none;
+            outline: none;
+            background-color: rgba(255, 255, 255, 0.377);
+            
+        }
+
+        .signin_cont form input{
+                width: 60%;
+                height: 40px;
+                border: none;
+                border-radius: 7px;
+                outline: none;
+                background-color: #fff;
+                color: #1d1d1d;
+            }
+        .signin_cont form .signin_btn{
+                background-color: black;
+                color: #fff;
+                font-size: 21px;
+                text-align: center;
+            }
+    
+    
+    /*Responsive*/
+    
+    
+    @media (max-width:999px){
+        tr{
+            font-size: 13px;
+        }
+        .notice_sec{
+            flex-direction: column;
+        }
+        .mani-cont .notice_table .not_cancel .delet_btn {
+            cursor: pointer;
+            width: 54px;
+            height: 30px;
+            border: none;
+            outline: none;
+            background-color: rgb(253, 69, 69);
+            color: #fff;
+            border-radius: 6px;
+          }
+        .not_upload{
+            section{
+                flex-direction: column;
+            }
+        }
+        .signin_cont form {
+            width: 90%;
+            height: auto;
+            border-radius: 7px;
+            gap: 20px;
+            border: none;
+            outline: none;
+            background-color: rgba(255, 255, 255, 0.377);
+          }
+    
+          .signin_cont form input {
+            width: 88%;
+            height: 40px;
+            border: none;
+            border-radius: 7px;
+            outline: none;
+            background-color: #fff;
+            color: #1d1d1d;
+          }
+          .mani-cont .left_sec .left-nav{
+            height: 86px;
+         }
+         .mani-cont .right_sec .right-nav{
+            height: 86px;
+         }
+    }
+
+
+    /*********SignIn / Sign up section End**********/
+
+
+/*****************Responsive CSS STYLE start****************/
+
+
+
+@media (max-width:990px){
+    .admin_name{
+        font-size: 13px;
+    }
+    .admin_subject{
+        font-size: 11px;
+        color: #fff;
+    }
+    .mani-cont .right_sec .inner_sec section {
+        gap: 7px;
+      }
+      .student_table th {
+        border: 1px solid #fff;
+        color: #fff;
+        font-weight: 500;
+        font-size: 11px;
+      }
+    .mani-cont .Add_student_form input {
+        width: 96%;
+        height: 40px;
+        color: #fff;
+      }
+      .mani-cont .Add_student_form .StudentClass {
+        width: 43%;
+      }
+    .mani-cont .right_sec {
+        right: 0;
+        height: 100%;
+        width: 80%;
+        background-color: #2C3D4D;
+    }
+    .mani-cont .left_sec {
+        height: 100%;
+        z-index: 1;
+        width: 20%;
+        color: #fff;
+        background-color: #263442;
+    }
+    .mani-cont .right_sec .inner_sec .card {
+        width: 58%;
+        height: 16vh;
+        background-color: rgba(255, 255, 255, 0.274);
+    }
+    .mani-cont .right_sec .signin {
+        text-decoration: none;
+        font-size: 16px;
+        color: #fff;
+        font-weight: 600;
+    }
+
+    .dash{
+        display: flex;
+        flex-direction: column;
+        img{
+            margin-left: 9px;
+        }
+        .text-light{
+            font-size: 16px;
+        }
+        
+
+    }
+    .tx-2{
+        font-size: 15px;
+    }
+}
+@media (min-width:599px) and (max-width:799px){
+    .mani-cont .right_sec {
+        right: 0;
+        height: 100%;
+        width: 68%;
+        background-color: #2C3D4D;
+    }
+    .mani-cont .left_sec {
+        height: 100%;
+        width: 34%;
+        color: #fff;
+        background-color: #263442;
+    }
+}
+
+@media (min-width:390px) and (max-width:500px){
+    .mani-cont .right_sec {
+        right: 0;
+        height: 100%;
+        width: 80%;
+        background-color: #2C3D4D;
+    }
+    .mani-cont .left_sec .left-nav .logo {
+        color: #fff;
+        font-size: 15px;
+    }
+    
+    .mani-cont .left_sec {
+        height: 100%;
+        width: 30%;
+        color: #fff;
+        background-color: #263442;
+        
+    }
+    .mani-cont .left_sec .sign_rt {
+        display: block;
+    }
+    .mani-cont .right_sec .signin {
+        display: none;
+    }
+    .mani-cont .right_sec .signup {
+        display: none;
+    }
+    .mani-cont .left_sec {
+        height: 100%;
+        z-index: 1;
+        width: 20%;
+        color: #fff;
+        background-color: #263442;
+    }
+    .mani-cont .left_sec .dash_cont {
+        display: none;
+        background-color: #263442;
+        height: 100%;
+    }
+    
+}
+
+@media (max-width:599px){
+    .mani-cont .left_sec .menu_ico {
+        width: 50px;
+        display: block;
+    }
+    .mani-cont .left_sec .dash_cont {
+        background-color: #263442;
+        height: 100%;
+        display: none;
+    }
+    .mani-cont .left_sec {
+    height: 100%;
+    z-index: 1;
+    width: 60%;
+    color: #fff;
+    background-color: #263442;
+   }
+   .mani-cont .left_sec .left-nav .logo {
+    color: #fff;
+    font-size: 15px;
+}
+    .mani-cont .left_sec .sign_rt {
+        display: block;
+    }
+    .mani-cont .right_sec .signin {
+        display: none;
+    }
+    .mani-cont .right_sec .signup {
+        display: none;
+    }
+    .mani-cont .left_sec {
+        height: 100%;
+        z-index: 1;
+        width: 20%;
+        color: #fff;
+        background-color: #263442;
+    }
+    
+}
+
+
+/************Responsive CSS Style End******************/

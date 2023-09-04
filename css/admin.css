@@ -1,0 +1,696 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #2C3D4D;
+}
+
+.mani-cont {
+  height: 100vh;
+  background-color: #2C3D4D;
+  /*********Left Section********/
+  /******Right Section**********/
+  /*Add_student Section css Style Start*/
+  /*Add_student Section css Style End*/
+  /*********NOTIFICATION SECTION START********/
+  /******Notice Add Section Style Satrt*******/
+  /*****Notice Add Section End******/
+  /********NOTIFICATION SECTION END**********/
+}
+.mani-cont .left_sec {
+  position: fixed;
+  height: 100%;
+  width: 20%;
+  color: #fff;
+  background-color: #263442;
+}
+.mani-cont .left_sec .left-nav {
+  background-color: rgba(18, 28, 37, 0.4941176471);
+  height: 80px;
+}
+.mani-cont .left_sec .left-nav .logo {
+  color: #fff;
+}
+.mani-cont .left_sec .item_gap {
+  width: 70%;
+}
+.mani-cont .left_sec .item {
+  font-size: 19px;
+}
+.mani-cont .left_sec .item img {
+  width: 14px;
+  height: 14px;
+  margin-top: -10px;
+  cursor: pointer;
+}
+.mani-cont .left_sec .item_li {
+  font-size: 14px;
+  display: none;
+}
+.mani-cont .left_sec .arrow-up1 {
+  display: none;
+}
+.mani-cont .left_sec .item_li2 {
+  font-size: 14px;
+  display: none;
+}
+.mani-cont .left_sec .arrow-up2 {
+  display: none;
+}
+.mani-cont .left_sec .item_li3 {
+  font-size: 14px;
+  display: none;
+}
+.mani-cont .left_sec .arrow-up3 {
+  display: none;
+}
+.mani-cont .left_sec .item_li4 {
+  font-size: 14px;
+  display: none;
+}
+.mani-cont .left_sec .arrow-up4 {
+  display: none;
+}
+.mani-cont .left_sec .item_li5 {
+  font-size: 14px;
+  display: none;
+}
+.mani-cont .left_sec .item_gap_student {
+  width: 22%;
+}
+.mani-cont .left_sec .arrow-up5 {
+  display: none;
+}
+.mani-cont .left_sec .item_li6 {
+  font-size: 14px;
+  display: none;
+}
+.mani-cont .left_sec .arrow-up6 {
+  display: none;
+}
+.mani-cont .left_sec .sign_rt {
+  display: none;
+}
+.mani-cont .left_sec .menu_ico {
+  width: 50px;
+  display: none;
+}
+.mani-cont .left_sec .x_ico {
+  width: 25px;
+  display: none;
+}
+.mani-cont .left_sec .dash_cont {
+  background-color: #263442;
+  height: 100%;
+}
+.mani-cont .right_sec {
+  right: 0;
+  height: auto;
+  width: 80%;
+  background-color: #2C3D4D;
+}
+.mani-cont .right_sec .right-nav {
+  position: fixed;
+  z-index: 1;
+  height: 80px;
+  background-color: #21303f;
+}
+.mani-cont .right_sec .right-nav .nav-cont {
+  gap: 40%;
+}
+.mani-cont .right_sec .right-nav .logo {
+  color: #fff;
+}
+.mani-cont .right_sec .right-nav .user_img {
+  width: 45px;
+  height: 45px;
+  margin-top: -20px;
+  border: 3px solid rgb(219, 219, 219);
+}
+.mani-cont .right_sec .right-nav #user-input {
+  display: none;
+}
+.mani-cont .right_sec .right-nav .admin_subject {
+  color: #fff;
+  padding-left: 20px;
+  cursor: pointer;
+}
+.mani-cont .right_sec .right_op {
+  right: 2%;
+  gap: 30px;
+}
+.mani-cont .right_sec .alert_icon {
+  width: 30px;
+  height: 30px;
+}
+.mani-cont .right_sec .signin {
+  text-decoration: none;
+  font-size: 21px;
+  color: #fff;
+  font-weight: 500;
+}
+.mani-cont .right_sec .signup {
+  width: 100px;
+  height: 40px;
+  text-align: center;
+  border: 2px solid #fff;
+  outline: none;
+  background-color: transparent;
+  border-radius: 7px;
+  text-decoration: none;
+  font-size: 21px;
+  color: #fff;
+  font-weight: 500;
+}
+.mani-cont .right_sec .inner_sec {
+  position: absolute;
+  top: 80px;
+  color: rgba(146, 151, 155, 0.4745098039);
+}
+.mani-cont .right_sec .inner_sec section {
+  gap: 30px;
+}
+.mani-cont .right_sec .inner_sec p {
+  color: #fff;
+}
+.mani-cont .right_sec .inner_sec .card {
+  cursor: pointer;
+  width: 20%;
+  height: 40vh;
+  background-color: rgba(255, 255, 255, 0.274);
+  transition: transform 0.1s;
+}
+.mani-cont .right_sec .inner_sec .card:hover {
+  transform: scale(1.06);
+}
+.mani-cont .Add_student_form {
+  color: #fff;
+  width: 100%;
+  height: auto;
+}
+.mani-cont .Add_student_form select {
+  border-radius: 0;
+  margin-top: 2px;
+  height: 40px;
+  color: #fff;
+  outline: none;
+  border-bottom: 1px solid rgb(170, 170, 170);
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  background-color: transparent;
+}
+.mani-cont .Add_student_form select option {
+  color: #0e0e0e;
+}
+.mani-cont .Add_student_form .StudentClass {
+  width: 20%;
+}
+.mani-cont .Add_student_form .add_submit_btn {
+  width: 100px;
+}
+.mani-cont .Add_student_form .image_upload {
+  width: 120px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: rgb(126, 126, 126);
+  cursor: pointer;
+}
+.mani-cont .Add_student_form .add_submit_btn {
+  border: none;
+  background-color: #fff;
+  border-radius: 5px;
+  font-weight: 600;
+}
+.mani-cont .Add_student_form #input-file {
+  border: none;
+  outline: none;
+}
+.mani-cont .Add_student_form input {
+  margin-top: 2px;
+  width: 50%;
+  height: 40px;
+  color: #fff;
+  outline: none;
+  border-bottom: 1px solid rgb(170, 170, 170);
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  background-color: transparent;
+}
+.mani-cont .Add_student_form img {
+  width: 120px;
+  height: 120px;
+  border: 4px solid #fff;
+  outline: none;
+}
+.mani-cont .notice_upForm {
+  width: 100%;
+  height: auto;
+}
+.mani-cont .notice_upForm select {
+  height: 40px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.mani-cont .notice_upForm .file_upload_sec {
+  width: 150px;
+  cursor: pointer;
+  align-items: baseline;
+}
+.mani-cont .notice_upForm .file_upload_sec button {
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: rgb(95, 95, 95);
+  color: #fff;
+  font-weight: 600;
+}
+.mani-cont .notice_table {
+  border: none;
+  outline: none;
+  color: #fff;
+  width: 100%;
+  height: auto;
+}
+.mani-cont .notice_table tr, .mani-cont .notice_table td, .mani-cont .notice_table th {
+  border: 1px solid #fff;
+}
+.mani-cont .notice_table .not_upload {
+  width: 200px;
+  background-color: rgb(0, 146, 0);
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 6px;
+}
+.mani-cont .notice_table .not_upload section {
+  padding: 2px;
+  gap: 9px;
+}
+.mani-cont .notice_table .not_upload section img {
+  width: 20px;
+}
+.mani-cont .notice_table .not_view {
+  width: 200px;
+  background-color: rgb(58, 58, 58);
+  cursor: pointer;
+  border-radius: 6px;
+}
+.mani-cont .notice_table .not_view img {
+  width: 20px;
+}
+.mani-cont .notice_table .not_cancel {
+  width: 200px;
+  font-weight: 700;
+}
+.mani-cont .notice_table .not_cancel .delet_btn {
+  cursor: pointer;
+  width: 100px;
+  height: 30px;
+  border: none;
+  outline: none;
+  background-color: rgb(253, 69, 69);
+  color: #fff;
+  border-radius: 6px;
+}
+.mani-cont .notice_table td {
+  background-color: #1a242e;
+  height: 40px;
+}
+
+/******Student View Section style Start********/
+.student_table {
+  color: #fff;
+  width: 100%;
+  height: auto;
+}
+.student_table .class_ul {
+  display: none;
+  padding: 0;
+  width: 16%;
+  height: auto;
+  border: none;
+  outline: none;
+  background-color: rgba(129, 129, 129, 0.541);
+}
+.student_table .class_ul .class_li {
+  height: 0px;
+  border: 1px solid #fff;
+  list-style: none;
+  cursor: pointer;
+  background-color: #151d24;
+}
+.student_table .class_ul .class_li p {
+  text-align: center;
+  color: #fff;
+}
+.student_table .class_ul .class_li:hover {
+  background-color: #fff;
+}
+.student_table .class_ul .class_li:hover p {
+  color: #263442;
+}
+.student_table .Sec_ul {
+  margin-top: 11px;
+  display: none;
+  padding: 0;
+  width: 28%;
+  height: auto;
+  border: none;
+  outline: none;
+  background-color: rgba(129, 129, 129, 0.541);
+}
+.student_table .Sec_ul .Sec_li {
+  height: 0px;
+  border: 1px solid #fff;
+  list-style: none;
+  background-color: #151d24;
+  cursor: pointer;
+}
+.student_table .Sec_ul .Sec_li p {
+  text-align: center;
+  color: #fff;
+}
+.student_table .Sec_ul .Sec_li:hover {
+  background-color: #fff;
+}
+.student_table .Sec_ul .Sec_li:hover p {
+  color: #263442;
+}
+.student_table .table_ex {
+  border: none;
+  outline: none;
+}
+.student_table th {
+  border: 1px solid #fff;
+  color: #fff;
+}
+.student_table td {
+  border: 1px solid #fff;
+  color: #fff;
+}
+.student_table .infoClassArrowDwn, .student_table .infoSecArrowDwn {
+  display: none;
+}
+.student_table .LnA {
+  display: none;
+}
+.student_table img {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  background-color: rgb(104, 104, 104);
+}
+.student_table .sub_tr_3 {
+  display: none;
+}
+.student_table .sub_tr_1, .student_table .sub_tr_2, .student_table .sub_tr_1_1, .student_table .sub_tr_1_2, .student_table .sub_tr_2_1, .student_table .sub_tr_3_1 {
+  display: none;
+}
+.student_table .sub_tr_1, .student_table .sub_tr_2, .student_table .sub_tr_3, .student_table .sub_tr_1_1, .student_table .sub_tr_1_2, .student_table .sub_tr_2_1, .student_table .sub_tr_3_1 {
+  text-align: center;
+}
+.student_table .sub_tr_1 img, .student_table .sub_tr_2 img, .student_table .sub_tr_3 img, .student_table .sub_tr_1_1 img, .student_table .sub_tr_1_2 img, .student_table .sub_tr_2_1 img, .student_table .sub_tr_3_1 img {
+  width: 67px;
+  height: 67px;
+}
+
+/******Student View Section style End*********/
+/******* Sign Button Page css start*******/
+.signin_cont {
+  height: 100vh;
+}
+.signin_cont .button_section {
+  width: 60%;
+  gap: 20px;
+}
+.signin_cont .signin {
+  background-color: #0e0e0e;
+  color: #fff;
+  transition: transform 0.1s;
+}
+.signin_cont .signin:hover {
+  transform: scale(1.06);
+}
+.signin_cont .signup {
+  transition: transform 0.1s;
+}
+.signin_cont .signup:hover {
+  transform: scale(1.06);
+}
+.signin_cont button {
+  width: 120px;
+  height: 45px;
+  border: none;
+  outline: none;
+  border-radius: 7px;
+  text-align: center;
+}
+
+/******* Sign button page css End *******/
+/********* Sign in / sign up css section Start**********/
+.signin_cont {
+  height: 100vh;
+}
+
+.signin_cont form {
+  width: 50%;
+  height: auto;
+  border-radius: 7px;
+  gap: 20px;
+  border: none;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.377);
+}
+
+.signin_cont form input {
+  width: 60%;
+  height: 40px;
+  border: none;
+  border-radius: 7px;
+  outline: none;
+  background-color: #fff;
+  color: #1d1d1d;
+}
+
+.signin_cont form .signin_btn {
+  background-color: black;
+  color: #fff;
+  font-size: 21px;
+  text-align: center;
+}
+
+/*Responsive*/
+@media (max-width: 999px) {
+  tr {
+    font-size: 13px;
+  }
+  .notice_sec {
+    flex-direction: column;
+  }
+  .mani-cont .notice_table .not_cancel .delet_btn {
+    cursor: pointer;
+    width: 54px;
+    height: 30px;
+    border: none;
+    outline: none;
+    background-color: rgb(253, 69, 69);
+    color: #fff;
+    border-radius: 6px;
+  }
+  .not_upload section {
+    flex-direction: column;
+  }
+  .signin_cont form {
+    width: 90%;
+    height: auto;
+    border-radius: 7px;
+    gap: 20px;
+    border: none;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.377);
+  }
+  .signin_cont form input {
+    width: 88%;
+    height: 40px;
+    border: none;
+    border-radius: 7px;
+    outline: none;
+    background-color: #fff;
+    color: #1d1d1d;
+  }
+  .mani-cont .left_sec .left-nav {
+    height: 86px;
+  }
+  .mani-cont .right_sec .right-nav {
+    height: 86px;
+  }
+}
+/*********SignIn / Sign up section End**********/
+/*****************Responsive CSS STYLE start****************/
+@media (max-width: 990px) {
+  .admin_name {
+    font-size: 13px;
+  }
+  .admin_subject {
+    font-size: 11px;
+    color: #fff;
+  }
+  .mani-cont .right_sec .inner_sec section {
+    gap: 7px;
+  }
+  .student_table th {
+    border: 1px solid #fff;
+    color: #fff;
+    font-weight: 500;
+    font-size: 11px;
+  }
+  .mani-cont .Add_student_form input {
+    width: 96%;
+    height: 40px;
+    color: #fff;
+  }
+  .mani-cont .Add_student_form .StudentClass {
+    width: 43%;
+  }
+  .mani-cont .right_sec {
+    right: 0;
+    height: 100%;
+    width: 80%;
+    background-color: #2C3D4D;
+  }
+  .mani-cont .left_sec {
+    height: 100%;
+    z-index: 1;
+    width: 20%;
+    color: #fff;
+    background-color: #263442;
+  }
+  .mani-cont .right_sec .inner_sec .card {
+    width: 58%;
+    height: 16vh;
+    background-color: rgba(255, 255, 255, 0.274);
+  }
+  .mani-cont .right_sec .signin {
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+  }
+  .dash {
+    display: flex;
+    flex-direction: column;
+  }
+  .dash img {
+    margin-left: 9px;
+  }
+  .dash .text-light {
+    font-size: 16px;
+  }
+  .tx-2 {
+    font-size: 15px;
+  }
+}
+@media (min-width: 599px) and (max-width: 799px) {
+  .mani-cont .right_sec {
+    right: 0;
+    height: 100%;
+    width: 68%;
+    background-color: #2C3D4D;
+  }
+  .mani-cont .left_sec {
+    height: 100%;
+    width: 34%;
+    color: #fff;
+    background-color: #263442;
+  }
+}
+@media (min-width: 390px) and (max-width: 500px) {
+  .mani-cont .right_sec {
+    right: 0;
+    height: 100%;
+    width: 80%;
+    background-color: #2C3D4D;
+  }
+  .mani-cont .left_sec .left-nav .logo {
+    color: #fff;
+    font-size: 15px;
+  }
+  .mani-cont .left_sec {
+    height: 100%;
+    width: 30%;
+    color: #fff;
+    background-color: #263442;
+  }
+  .mani-cont .left_sec .sign_rt {
+    display: block;
+  }
+  .mani-cont .right_sec .signin {
+    display: none;
+  }
+  .mani-cont .right_sec .signup {
+    display: none;
+  }
+  .mani-cont .left_sec {
+    height: 100%;
+    z-index: 1;
+    width: 20%;
+    color: #fff;
+    background-color: #263442;
+  }
+  .mani-cont .left_sec .dash_cont {
+    display: none;
+    background-color: #263442;
+    height: 100%;
+  }
+}
+@media (max-width: 599px) {
+  .mani-cont .left_sec .menu_ico {
+    width: 50px;
+    display: block;
+  }
+  .mani-cont .left_sec .dash_cont {
+    background-color: #263442;
+    height: 100%;
+    display: none;
+  }
+  .mani-cont .left_sec {
+    height: 100%;
+    z-index: 1;
+    width: 60%;
+    color: #fff;
+    background-color: #263442;
+  }
+  .mani-cont .left_sec .left-nav .logo {
+    color: #fff;
+    font-size: 15px;
+  }
+  .mani-cont .left_sec .sign_rt {
+    display: block;
+  }
+  .mani-cont .right_sec .signin {
+    display: none;
+  }
+  .mani-cont .right_sec .signup {
+    display: none;
+  }
+  .mani-cont .left_sec {
+    height: 100%;
+    z-index: 1;
+    width: 20%;
+    color: #fff;
+    background-color: #263442;
+  }
+}
+/************Responsive CSS Style End******************//*# sourceMappingURL=admin.css.map */
